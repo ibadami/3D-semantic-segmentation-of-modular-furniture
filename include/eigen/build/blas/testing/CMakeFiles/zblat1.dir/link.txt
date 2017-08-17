@@ -1,0 +1,1 @@
+/usr/bin/gfortran     -O3 CMakeFiles/zblat1.dir/zblat1.f.o  -o zblat1 -rdynamic ../libeigen_blas.so -Wl,-rpath,/home/tom/Downloads/eigen/build/blas 
