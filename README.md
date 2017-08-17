@@ -2,7 +2,7 @@ The code is tested on Ubuntu 14.04.
 
 Download RGB-D furniture models and their annotations from [here](https://www.vision.rwth-aachen.de/page/furniture).
 
-####Dependencies: 
+#### Dependencies: 
 eigen, PCL, Gurobi, OpenCV
 
 #### Compiling:
@@ -88,14 +88,14 @@ and merging allowance (in pixels) can be specified using MERGE_ALLOWANCE
 
 ###### Simulated Annealing Parameters (2Phase Architecture)
 
-####### Phase 1 parameters
+###### # Phase 1 parameters
 1) MAX_TEMP_WARMUP
 2) MIN_TEMP_WARMUP
 3) ALPHA_WARMUP
 4) MAX_UPDATE_ITER_WARMUP
 5) NUM_INNER_LOOPS_WARMUP
 
-####### Phase 2 parameters
+###### # Phase 2 parameters
 1) MAX_TEMP_MASTER
 2) MIN_TEMP_MASTER
 3) ALPHA_MASTER
