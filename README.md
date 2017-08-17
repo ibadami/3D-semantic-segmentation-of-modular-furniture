@@ -12,9 +12,9 @@ Following two commands to be run in the terminal from the build directory:
 `make`
 
 Note: change the required directory path in CMakeList file.
-##### Training:
+#### Training:
 
-###### Train with all the images: 
+##### Train with all the images: 
 `./bin/cli train ../data/depth/160/crossValidate/set4/train/`
 
 All the training models must be stored in the build directory before testing
@@ -24,14 +24,14 @@ Each training can be separately enabled in parser.cpp
 3) trainAppearanceCodeBook
 
 
-###### Parsing a single image:
+##### Parsing a single image:
 for example to parse an image named '728.JPG' in the folder ../data/depth/160/crossValidate/set4/test
 
 `./bin/cli parse ../data/depth/160/crossValidate/set4/test/ 728`
 
 the resulting image will be stored with the name 'last_result.png' in the build directory.
 
-##### Testing:
+#### Testing:
 
 ###### Test all the images:
 './bin/cli test ../data/depth/160/crossValidate/set4/test/'
