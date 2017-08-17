@@ -102,7 +102,7 @@ and merging allowance (in pixels) can be specified using MERGE_ALLOWANCE
 4) MAX_UPDATE_ITER_MASTER
 5) NUM_INNER_LOOPS_MASTER
 
-###### move indices
+###### Sampling move indices
 
 1) EXCHANGE_MOVE_IDX
 2) BIRTH_MOVE_IDX
